@@ -6,6 +6,12 @@ body, html {
     color: #6EBBCD;
 }
 
+a {
+    color: #B894FF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
 h1, h2, h3, h4, h5, p {
     margin: 0;
 }
@@ -28,6 +34,7 @@ h3 {
 h4 {
     color: #72D4A5;
     font-size: 25px;
+    margin: 5px 0px;
 }
 
 h5 {
@@ -41,6 +48,10 @@ strong {
 
 em {
     color: #BDAEF0;
+}
+
+#bio em {
+    color: red;
 }
 
 #background {
@@ -93,4 +104,34 @@ em {
 
 #navigation a:hover {
     color: #A75F82;
+}
+
+#background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(45deg, #2D3039 25%, #1C1E27 25%, #1C1E27 75%, #2D3039 75%);
+    background-size: 20px 20px; /* Size of each checkerboard cell */
+    z-index: -1;
+    animation: panningCheckerboard 8s linear infinite;
+}
+
+@keyframes panningCheckerboard {
+    0% {
+        transform: translate(-20px, -20px); /* Move the checkerboard pattern 1 cell to the left and 1 cell up */
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#bio {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 300px;
+    
 }
