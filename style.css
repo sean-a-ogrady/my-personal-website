@@ -133,5 +133,11 @@ em {
     bottom: 25px;
     right: 25px;
     width: 300px;
-    
+}
+
+#bottom-left-area {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: center;
 }
