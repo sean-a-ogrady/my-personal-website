@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica;
+    background: #2D3039;
+    color: #6EBBCD;
+}
+h1 {
+    color: #D9D617;
+    font-size: 45px;
+}
+h2 {
+    color: #B894FF;
+    font-size: 35px;
+}
+h3 {
+    color: #0DC8F2;
+    font-size: 30px;
+}
+h4 {
+    color: #72D4A5;
+    font-size: 25px;
+}
+h5 {
+    color: #9FA7C0;
+    font-size: 20px;
+}
+strong {
+    color: #DBCE84;
+}
+em {
+    color: #BDAEF0;
+}
