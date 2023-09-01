@@ -18,3 +18,4 @@ function clickAlert(){
     }
 }
 bottomLeftArea.addEventListener('click', clickAlert);
+//Added for a git test
