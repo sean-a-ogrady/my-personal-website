@@ -1,15 +1,11 @@
 // Selectors
-const bottomLeftArea = document.querySelector("#bottom-left-area");
+const bottomLeftArea = document.querySelector('#bottom-left-area');
 const container = document.querySelector('#word-cloud-container');
 const background = document.querySelector('#background');
 
 // Variables
 const url = "http://localhost:3000/words";
 let alertTimes = 0;
-const width = container.offsetWidth;
-const height = container.offsetHeight;
-const pageWidth = background.offsetWidth;
-const pageHeight = background.offsetHeight;
 
 // Fetch data from daily wordcloud (sample data for now)
 // This will eventually be automated
@@ -20,8 +16,17 @@ fetch(url)
 // Initialize word cloud
 function initializeWordCloud(words) {
 
+    // Remove existing SVG if it exists
+    d3.select("#word-cloud-container svg").remove();
+
+    const container = document.querySelector('#word-cloud-container');
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+    const pageWidth = background.offsetWidth;
+    const pageHeight = background.offsetHeight;
+
     // Start with a base size
-    let baseSize = 10;
+    let baseSize = 15;
 
     // Calculate initial scaling factor (adjustible)
     let scalingFactor = 0.5 * Math.sqrt(width * height / words.length);
@@ -91,16 +96,14 @@ function initializeWordCloud(words) {
     }
 }
 
-
-
 function clickAlert() {
     alertTimes++;
     switch (alertTimes) {
         case 1:
-            alert("alright listen I promise I'll put something here just hold on");
+            alert("alright listen I gave you a word cloud chill");
             break;
         case 2:
-            alert("cmon man I just told you I'll do something here, chill");
+            alert("cmon man I'll keep working on this I swear");
             break;
         case 3:
             alert("dude how many times I gotta tell you, cut it out bro")
@@ -111,3 +114,10 @@ function clickAlert() {
     }
 }
 bottomLeftArea.addEventListener('click', clickAlert);
+
+// Redraw word cloud when window is resized
+window.addEventListener('resize', () => {
+    fetch(url)
+        .then(response => response.json())
+        .then(words => initializeWordCloud(words));
+});
