@@ -1,0 +1,1036 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "word": "obsidian",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 2,
+      "word": "word",
+      "frequency": 12,
+      "sentiment": 0
+    },
+    {
+      "id": 3,
+      "word": "plugin",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 4,
+      "word": "project",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 5,
+      "word": "wordscraper",
+      "frequency": 14,
+      "sentiment": 0
+    },
+    {
+      "id": 6,
+      "word": "captures",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 7,
+      "word": "words",
+      "frequency": 11,
+      "sentiment": 0
+    },
+    {
+      "id": 8,
+      "word": "type",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 9,
+      "word": "new",
+      "frequency": 4,
+      "sentiment": 0
+    },
+    {
+      "id": 10,
+      "word": "markdown",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 11,
+      "word": "file",
+      "frequency": 16,
+      "sentiment": 0
+    },
+    {
+      "id": 12,
+      "word": "every",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 13,
+      "word": "day",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 14,
+      "word": "along",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 15,
+      "word": "frequencies",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 16,
+      "word": "work",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 17,
+      "word": "start",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 18,
+      "word": "typing",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 19,
+      "word": "one",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 20,
+      "word": "already",
+      "frequency": 4,
+      "sentiment": 0
+    },
+    {
+      "id": 21,
+      "word": "exist",
+      "frequency": 5,
+      "sentiment": 0
+    },
+    {
+      "id": 22,
+      "word": "name",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 23,
+      "word": "generated",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 24,
+      "word": "format",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 25,
+      "word": "yyyy",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 26,
+      "word": "typed",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 27,
+      "word": "note",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 28,
+      "word": "appear",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 29,
+      "word": "made",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 30,
+      "word": "originally",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 31,
+      "word": "capture",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 32,
+      "word": "throughout",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 33,
+      "word": "order",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 34,
+      "word": "publish",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 35,
+      "word": "cloud",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 36,
+      "word": "personal",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 37,
+      "word": "website",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 38,
+      "word": "sean",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 39,
+      "word": "ogrady",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 40,
+      "word": "github",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 41,
+      "word": "figured",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 42,
+      "word": "others",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 43,
+      "word": "might",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 44,
+      "word": "able",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 45,
+      "word": "find",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 46,
+      "word": "use",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 47,
+      "word": "plus",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 48,
+      "word": "first",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 49,
+      "word": "time",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 50,
+      "word": "publishing",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 51,
+      "word": "anything",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 52,
+      "word": "intention",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 53,
+      "word": "people",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 54,
+      "word": "using",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 55,
+      "word": "excited",
+      "frequency": 1,
+      "sentiment": 3
+    },
+    {
+      "id": 56,
+      "word": "gain",
+      "frequency": 1,
+      "sentiment": 2
+    },
+    {
+      "id": 57,
+      "word": "experience",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 58,
+      "word": "fact",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 59,
+      "word": "links",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 60,
+      "word": "linkedin",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 61,
+      "word": "features",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 62,
+      "word": "settings",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 63,
+      "word": "left",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 64,
+      "word": "bar",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 65,
+      "word": "icon",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 66,
+      "word": "pencil",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 67,
+      "word": "open",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 68,
+      "word": "daily",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 69,
+      "word": "create",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 70,
+      "word": "command",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 71,
+      "word": "palette",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 72,
+      "word": "items",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 73,
+      "word": "export",
+      "frequency": 8,
+      "sentiment": 0
+    },
+    {
+      "id": 74,
+      "word": "frequency",
+      "frequency": 7,
+      "sentiment": 0
+    },
+    {
+      "id": 75,
+      "word": "json",
+      "frequency": 13,
+      "sentiment": 0
+    },
+    {
+      "id": 76,
+      "word": "reset",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 77,
+      "word": "state",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 78,
+      "word": "known",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 79,
+      "word": "bugs",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 80,
+      "word": "clearing",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 81,
+      "word": "quite",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 82,
+      "word": "buggy",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 83,
+      "word": "sometimes",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 84,
+      "word": "save",
+      "frequency": 3,
+      "sentiment": 2
+    },
+    {
+      "id": 85,
+      "word": "remain",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 86,
+      "word": "even",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 87,
+      "word": "deletion",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 88,
+      "word": "deleted",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 89,
+      "word": "removed",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 90,
+      "word": "duplicate",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 91,
+      "word": "increase",
+      "frequency": 1,
+      "sentiment": 1
+    },
+    {
+      "id": 92,
+      "word": "count",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 93,
+      "word": "next",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 94,
+      "word": "please",
+      "frequency": 1,
+      "sentiment": 1
+    },
+    {
+      "id": 95,
+      "word": "feedback",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 96,
+      "word": "improve",
+      "frequency": 1,
+      "sentiment": 2
+    },
+    {
+      "id": 97,
+      "word": "folder",
+      "frequency": 7,
+      "sentiment": 0
+    },
+    {
+      "id": 98,
+      "word": "specify",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 99,
+      "word": "path",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 100,
+      "word": "want",
+      "frequency": 4,
+      "sentiment": 1
+    },
+    {
+      "id": 101,
+      "word": "files",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 102,
+      "word": "default",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 103,
+      "word": "saved",
+      "frequency": 2,
+      "sentiment": 2
+    },
+    {
+      "id": 104,
+      "word": "main",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 105,
+      "word": "vault",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 106,
+      "word": "excluded",
+      "frequency": 1,
+      "sentiment": -2
+    },
+    {
+      "id": 107,
+      "word": "folders",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 108,
+      "word": "exclude",
+      "frequency": 2,
+      "sentiment": -1
+    },
+    {
+      "id": 109,
+      "word": "scraping",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 110,
+      "word": "especially",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 111,
+      "word": "helpful",
+      "frequency": 1,
+      "sentiment": 2
+    },
+    {
+      "id": 112,
+      "word": "documents",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 113,
+      "word": "consider",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 114,
+      "word": "private",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 115,
+      "word": "update",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 116,
+      "word": "often",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 117,
+      "word": "updated",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 118,
+      "word": "set",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 119,
+      "word": "seconds",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 120,
+      "word": "milliseconds",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 121,
+      "word": "enable",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 122,
+      "word": "moment",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 123,
+      "word": "functional",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 124,
+      "word": "definitely",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 125,
+      "word": "share",
+      "frequency": 1,
+      "sentiment": 1
+    },
+    {
+      "id": 126,
+      "word": "toggle",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 127,
+      "word": "automatic",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 128,
+      "word": "upon",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 129,
+      "word": "creation",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 130,
+      "word": "current",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 131,
+      "word": "also",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 132,
+      "word": "enables",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 133,
+      "word": "item",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 134,
+      "word": "must",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 135,
+      "word": "exported",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 136,
+      "word": "stopwords",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 137,
+      "word": "scraped",
+      "frequency": 3,
+      "sentiment": 0
+    },
+    {
+      "id": 138,
+      "word": "list",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 139,
+      "word": "suggested",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 140,
+      "word": "pastebin",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 141,
+      "word": "link",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 142,
+      "word": "zty6ej2f",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 143,
+      "word": "apostrophes",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 144,
+      "word": "hyphens",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 145,
+      "word": "notes",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 146,
+      "word": "look",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 147,
+      "word": "like",
+      "frequency": 1,
+      "sentiment": 2
+    },
+    {
+      "id": 148,
+      "word": "sentiment",
+      "frequency": 6,
+      "sentiment": 0
+    },
+    {
+      "id": 149,
+      "word": "property",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 150,
+      "word": "uses",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 151,
+      "word": "natural",
+      "frequency": 1,
+      "sentiment": 1
+    },
+    {
+      "id": 152,
+      "word": "language",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 153,
+      "word": "processing",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 154,
+      "word": "calculate",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 155,
+      "word": "score",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 156,
+      "word": "example",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 157,
+      "word": "good",
+      "frequency": 1,
+      "sentiment": 3
+    },
+    {
+      "id": 158,
+      "word": "negative",
+      "frequency": 1,
+      "sentiment": -2
+    },
+    {
+      "id": 159,
+      "word": "bad",
+      "frequency": 1,
+      "sentiment": -3
+    },
+    {
+      "id": 160,
+      "word": "future",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 161,
+      "word": "plan",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 162,
+      "word": "add",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 163,
+      "word": "interesting",
+      "frequency": 1,
+      "sentiment": 2
+    },
+    {
+      "id": 164,
+      "word": "data",
+      "frequency": 2,
+      "sentiment": 0
+    },
+    {
+      "id": 165,
+      "word": "attached",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 166,
+      "word": "opens",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 167,
+      "word": "creates",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 168,
+      "word": "exports",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 169,
+      "word": "see",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 170,
+      "word": "resets",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 171,
+      "word": "well",
+      "frequency": 1,
+      "sentiment": 0
+    },
+    {
+      "id": 172,
+      "word": "cached",
+      "frequency": 1,
+      "sentiment": 0
+    }
+  ]
+}

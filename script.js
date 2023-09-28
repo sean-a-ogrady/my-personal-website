@@ -1,5 +1,16 @@
-const bottomLeftArea = document.getElementById("bottom-left-area");
+// Selectors
+const bottomLeftArea = document.querySelector("#bottom-left-area");
+
+// Variables
+const url = "http://localhost:3000/words";
 let alertTimes = 0;
+
+// Fetch data from daily wordcloud (sample data for now)
+// This will eventually be automated
+fetch(url)
+.then(response => response.json())
+.then(words => console.log(words));
+
 function clickAlert(){
     alertTimes++;
     switch (alertTimes) {
@@ -18,4 +29,4 @@ function clickAlert(){
     }
 }
 bottomLeftArea.addEventListener('click', clickAlert);
-//Added for a git test
+
