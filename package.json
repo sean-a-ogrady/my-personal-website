@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "d3-cloud": "^1.2.7",
+    "d3-dispatch": "^3.0.1"
+  }
+}

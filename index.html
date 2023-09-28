@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--favicon code-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -11,20 +12,22 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <!-- Include Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Sean O'Grady</title>
 </head>
+
 <body>
-    <div id="background"></div>    
+    <div id="background"></div>
     <div id="frame">
+        <div id="word-cloud-container"></div>
         <div id="site-header">
             <h1>Sean O'Grady</h1>
             <h3>SE Student @ the <em><a href="https://flatironschool.com/">Flatiron School</a></em></h3>
             <h4>B.S. Applied Mathematics & Statistics,</h4>
-            <h4><em>Stony Brook University</em></h4>
-            <p>ogrady.sean.a@gmail.com</p>
+            <h4>Stony Brook University</h4>
+            <p><em>ogrady.sean.a@gmail.com</em></p>
         </div>
         <ul id="navigation">
             <li><a href="https://www.instagram.com/og_sean"><i class="fab fa-instagram"></i></a></li>
@@ -32,7 +35,10 @@
             <li><a href="https://github.com/sean-a-ogrady"><i class="fab fa-github"></i></a></li>
         </ul>
         <div id="bottom-left-area">
-            <h5><em>Just pretend there's a cool animation here</em></h5>
+            <h5><s><em>Just pretend there's a cool animation here</em></s></h5>
+            <h5><em>Ok, I didn't put an animation here, but soon
+                <br>there'll be a wordcloud of my <a>Obsidian</a> notes
+                <br>on the published version.</em></h5>
         </div>
         <div id="bio">
             <p>> Recently graduated from Stony Brook University, I've now plunged headfirst into a career in
@@ -47,6 +53,10 @@
             </p>
         </div>
     </div>
+    <!-- Include D3.js -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Include d3-cloud -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('./fonts/ANDALEMO.TTF') format('truetype');
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: "Consolas";
+    font-family: "AndaleMono", monospace;
     background: #2D3039;
     color: #6EBBCD;
 }
@@ -140,4 +145,13 @@ em {
     bottom: 25px;
     left: 25px;
     text-align: center;
+}
+
+#word-cloud-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Make sure this is lower than other z-indices */
 }
