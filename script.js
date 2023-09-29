@@ -26,7 +26,10 @@ function initializeWordCloud(words) {
     const pageHeight = background.offsetHeight;
 
     // Start with a base size
-    let baseSize = 15;
+    const baseSize = 15;
+
+    // Const opacity
+    const opacity = 0.1;
 
     // Calculate initial scaling factor (adjustible)
     let scalingFactor = 0.5 * Math.sqrt(width * height / words.length);
@@ -73,13 +76,19 @@ function initializeWordCloud(words) {
         const paddingX = 30; // Padding from the right
         const paddingY = 30; // Padding from the bottom
 
+        // Create a tooltip div that is hidden by default
+        // const tooltip = d3.select("body").append("div")
+        //     .attr("class", "tooltip")
+        //     .style("opacity", 0);
+
         svg.append("g")
             .attr("transform", `translate(${pageWidth / 2 - paddingX},${pageHeight / 2 - paddingY})`)
             .selectAll("text")
             .data(words)
             .enter().append("text")
+            .attr("data-opacity", opacity)
             .style("font-size", d => d.size + "px")
-            .style("opacity", 0.1)
+            .style("opacity", opacity)
             .style("fill", d => {
                 // Change color based on sentiment
                 if (d.sentiment > 0) {
@@ -92,11 +101,70 @@ function initializeWordCloud(words) {
             })
             .attr("text-anchor", "middle")
             .attr("transform", d => `translate(${[d.x, d.y]})rotate(${d.rotate})`)
-            .text(d => d.text);
+            .text(d => d.text)
+            .on("mouseover", function (d) {
+                d3.select(this)
+                    .style("opacity", 0.5)
+                    .style("font-size", d.size * 1.0 + "px");
+
+                // Fetch the definition from the dictionary API
+                // fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_US/${d.text}`)
+                //     .then(response => response.json())
+                //     .then(data => {
+                // Assume the definition is in data[0].meaning
+                // const definition = data[0].meaning;
+
+                // Show the tooltip
+                // tooltip.transition()
+                //     .duration(200)
+                //     .style("opacity", .9);
+                // tooltip.html(`${d.text}: ${definition}`)
+                //     .style("left", (d3.event.pageX) + "px")
+                //     .style("top", (d3.event.pageY - 28) + "px");
+                // });
+            })
+            // .on("mousemove", function(event, d) {
+            //     // Update the tooltip position as mouse moves
+            //     tooltip.style("left", (event.pageX) + "px")
+            //            .style("top", (event.pageY - 28) + "px");
+            // })
+            .on("mouseout", function (d) {
+                // Retrieve the current custom opacity
+                let currentOpacity = parseFloat(d3.select(this).attr("data-opacity"));
+
+                // Increment the opacity by a certain value (e.g., 0.1)
+                let newOpacity = Math.min(currentOpacity + 0.1, 1);  // Cap at 1
+
+                // Update the custom attribute
+                d3.select(this).attr("data-opacity", newOpacity);
+
+                d3.select(this)
+                    .style("fill", function (d) {
+                        if (d.sentiment > 0) {
+                            return colorScalePositive(d.sentiment);
+                        } else if (d.sentiment < 0) {
+                            return colorScaleNegative(d.sentiment);
+                        } else {
+                            return "#4B4B4B";  // Dark grey for neutral sentiment on mouseout
+                        }
+                    })
+                    .style("font-size", d.size + "px")
+                    .style("opacity", newOpacity);  // Set the incremented opacity
+
+                // Hide the tooltip
+                // tooltip.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
+            });;
     }
 }
 
-function clickAlert() {
+/*
+EVENT LISTENERS
+---------------
+*/
+
+bottomLeftArea.addEventListener('click', () => {
     alertTimes++;
     switch (alertTimes) {
         case 1:
@@ -112,8 +180,7 @@ function clickAlert() {
             alert(">:(");
             break;
     }
-}
-bottomLeftArea.addEventListener('click', clickAlert);
+});
 
 // Redraw word cloud when window is resized
 window.addEventListener('resize', () => {
@@ -121,3 +188,4 @@ window.addEventListener('resize', () => {
         .then(response => response.json())
         .then(words => initializeWordCloud(words));
 });
+
