@@ -1,5 +1,6 @@
 // Selectors
 const bottomLeftArea = document.querySelector('#bottom-left-area');
+const pretend = document.querySelector("#pretend");
 const container = document.querySelector('#word-cloud-container');
 const background = document.querySelector('#background');
 
@@ -164,7 +165,7 @@ EVENT LISTENERS
 ---------------
 */
 
-bottomLeftArea.addEventListener('click', () => {
+pretend.addEventListener('click', () => {
     alertTimes++;
     switch (alertTimes) {
         case 1:
@@ -189,3 +190,83 @@ window.addEventListener('resize', () => {
         .then(words => initializeWordCloud(words));
 });
 
+// This code will likely be deleted in published site
+function createForm() {
+    // Create form element
+    const form = document.createElement('form');
+    form.id = 'word-form';
+
+    // Create input for word
+    const wordInput = document.createElement('input');
+    wordInput.type = 'text';
+    wordInput.name = 'word';
+    wordInput.placeholder = 'Enter word';
+    form.appendChild(wordInput);
+
+    // Create toggle for add or remove
+    const toggle = document.createElement('input');
+    toggle.type = 'checkbox';
+    toggle.name = 'action';
+    toggle.id = 'toggle-action';
+    form.appendChild(toggle);
+
+    const toggleLabel = document.createElement('label');
+    toggleLabel.htmlFor = 'toggleAction';
+    toggleLabel.innerText = 'Check to Remove, Uncheck to Add.';
+    form.appendChild(toggleLabel);
+
+    // Create submit button
+    const submitButton = document.createElement('input');
+    submitButton.type = 'submit';
+    submitButton.value = 'Submit';
+    form.appendChild(submitButton);
+
+    // Append form to form container
+    document.querySelector("#form-container").appendChild(form);
+
+    // Add event listener for form submission
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const formData = new FormData(form);
+        const word = formData.get('word');
+        const action = formData.get('action') ? 'remove' : 'add';
+
+        // Execute fetch request based on action
+        if (action === 'add') {
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ word: word, frequency: 1, sentiment: 0 }) // example data
+            }).then(response => response.json())
+                .then(data => {
+                    // Refresh word cloud
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(words => initializeWordCloud(words));
+                });
+        } else if (action === 'remove') {
+            // Fetch all words to find the ID of the word to remove
+            fetch(url)
+                .then(response => response.json())
+                .then(words => {
+                    const wordToRemove = words.find(w => w.word === word);
+                    if (wordToRemove) {
+                        // Remove the word using its ID
+                        fetch(`${url}/${wordToRemove.id}`, {
+                            method: 'DELETE'
+                        }).then(() => {
+                            // Refresh word cloud
+                            fetch(url)
+                                .then(response => response.json())
+                                .then(words => initializeWordCloud(words));
+                        });
+                    } else {
+                        alert('Word not found');
+                    }
+                });
+        }
+    });
+}
+createForm();
