@@ -100,6 +100,7 @@ function initializeWordCloud(words) {
                     return "#6EBBCD";  // Grey for neutral sentiment
                 }
             })
+            .style("cursor", "default")
             .attr("text-anchor", "middle")
             .attr("transform", d => `translate(${[d.x, d.y]})rotate(${d.rotate})`)
             .text(d => d.text)
