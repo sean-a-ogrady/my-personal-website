@@ -6,7 +6,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: "AndaleMono", monospace;
+    font-family: "AndaleMono", "Consolas", monospace;
     background: #2D3039;
     color: #6EBBCD;
 }
@@ -145,6 +145,7 @@ em {
     bottom: 25px;
     left: 25px;
     text-align: left;
+    width: 400px;
 }
 
 #word-cloud-container {
@@ -156,55 +157,3 @@ em {
     z-index: -2; /* Make sure this is lower than other z-indices */
 }
 
-/*
-Below will likely be removed for published site
-*/
-
-/* Form Container */
-#form-container {
-    font-family: "AndaleMono", monospace;
-    background: #2D3039;
-    color: #6EBBCD;
-    border: 1px solid #6EBBCD;
-    padding: 5px;  /* Reduced padding */
-    width: 400px;  /* Reduced width */
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 2px;  /* Reduced border-radius for a flatter look */
-}
-
-/* Form Labels */
-#form-container label {
-    display: block;
-    margin-bottom: 5px;  /* Reduced margin */
-    color: #9FA7C0;
-}
-
-/* Text Input */
-#form-container input[type="text"] {
-    width: 95%;
-    padding: 5px;  /* Reduced padding */
-    margin: 2px 0 10px 0;  /* Reduced margin */
-    border: 1px solid #6EBBCD;
-    background: #2D3039;
-    color: #6EBBCD;
-}
-
-/* Radio Buttons */
-#form-container input[type="radio"] {
-    margin-right: 3px;  /* Reduced margin */
-}
-
-/* Submit Button */
-#form-container input[type="submit"] {
-    background-color: #6EBBCD;
-    color: #2D3039;
-    padding: 5px 10px;  /* Reduced padding */
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-#form-container input[type="submit"]:hover {
-    background-color: #4B4B4B;
-}
