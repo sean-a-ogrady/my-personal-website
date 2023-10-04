@@ -7,12 +7,6 @@
       "sentiment": 0
     },
     {
-      "id": 2,
-      "word": "word",
-      "frequency": 12,
-      "sentiment": 0
-    },
-    {
       "id": 3,
       "word": "plugin",
       "frequency": 2,
@@ -1031,6 +1025,24 @@
       "word": "cached",
       "frequency": 1,
       "sentiment": 0
+    },
+    {
+      "word": "word",
+      "frequency": 1,
+      "sentiment": 0,
+      "id": 173
+    },
+    {
+      "word": "word",
+      "frequency": 1,
+      "sentiment": 0,
+      "id": 174
+    },
+    {
+      "word": "pog",
+      "frequency": 1,
+      "sentiment": 0,
+      "id": 175
     }
   ]
 }

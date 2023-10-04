@@ -5,14 +5,14 @@ const container = document.querySelector('#word-cloud-container');
 const background = document.querySelector('#background');
 
 // Variables
-const url = "http://localhost:3000/words";
+const url = "https://gist.githubusercontent.com/sean-a-ogrady/0f2356115bb4469287a7890305fd1066/raw/1dd3c90d7fa4ffeb9a32cb80e12393dbf718fc29/sample-words";
 let alertTimes = 0;
 
 // Fetch data from daily wordcloud (sample data for now)
 // This will eventually be automated
 fetch(url)
     .then(response => response.json())
-    .then(words => initializeWordCloud(words));
+    .then(words => initializeWordCloud(words.words));
 
 // Initialize word cloud
 function initializeWordCloud(words) {
@@ -67,7 +67,7 @@ function initializeWordCloud(words) {
             return angles[Math.floor(Math.random() * 3)];
         })
         .text(function (d) { return d.text; })
-        .font("AndaleMono")
+        .font("AndaleMono, monospace")
         .fontSize(d => d.size)
         .on("end", draw);
 
@@ -223,7 +223,7 @@ function createForm() {
     form.appendChild(submitButton);
 
     // Append form to form container
-    document.querySelector("#form-container").appendChild(form);
+    // document.querySelector("#form-container").appendChild(form);
 
     // Add event listener for form submission
     form.addEventListener('submit', function (event) {
@@ -270,4 +270,4 @@ function createForm() {
         }
     });
 }
-createForm();
+//createForm();
