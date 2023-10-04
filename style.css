@@ -144,7 +144,7 @@ em {
     position: absolute;
     bottom: 25px;
     left: 25px;
-    text-align: center;
+    text-align: left;
 }
 
 #word-cloud-container {
