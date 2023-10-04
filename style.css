@@ -6,7 +6,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: "AndaleMono", "Consolas", monospace;
+    font-family: "AndaleMono", "Courier", monospace;
     background: #2D3039;
     color: #6EBBCD;
 }

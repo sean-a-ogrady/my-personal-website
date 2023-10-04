@@ -67,7 +67,7 @@ function initializeWordCloud(words) {
             return angles[Math.floor(Math.random() * 3)];
         })
         .text(function (d) { return d.text; })
-        .font("'AndaleMono', 'Consolas', monospace")
+        .font("'AndaleMono', 'Courier', monospace")
         .fontSize(d => d.size)
         .on("end", draw);
 
