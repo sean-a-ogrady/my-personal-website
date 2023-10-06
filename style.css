@@ -59,6 +59,14 @@ em {
     color: red;
 }
 
+#site-header {
+    pointer-events: none;
+}
+
+#site-header a {
+    pointer-events: all;
+}
+
 #background {
     height: 100%;
     width: 100%;
@@ -138,6 +146,11 @@ em {
     bottom: 25px;
     right: 25px;
     width: 300px;
+    pointer-events: none;
+}
+
+#bio a {
+    pointer-events: all;
 }
 
 #bottom-left-area {
@@ -146,6 +159,11 @@ em {
     left: 25px;
     text-align: left;
     width: 400px;
+    pointer-events: none;
+}
+
+#bottom-left-area a {
+    pointer-events: all;
 }
 
 #word-cloud-container {
