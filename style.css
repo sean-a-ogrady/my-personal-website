@@ -59,11 +59,11 @@ em {
     color: red;
 }
 
-#site-header {
+#site-header, #bio, #bottom-left-area {
     pointer-events: none;
 }
 
-#site-header a {
+#site-header a, #site-header p, #bio a, #bottom-left-area a {
     pointer-events: all;
 }
 
@@ -146,11 +146,6 @@ em {
     bottom: 25px;
     right: 25px;
     width: 300px;
-    pointer-events: none;
-}
-
-#bio a {
-    pointer-events: all;
 }
 
 #bottom-left-area {
@@ -159,11 +154,6 @@ em {
     left: 25px;
     text-align: left;
     width: 400px;
-    pointer-events: none;
-}
-
-#bottom-left-area a {
-    pointer-events: all;
 }
 
 #word-cloud-container {
