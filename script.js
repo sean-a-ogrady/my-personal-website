@@ -36,6 +36,8 @@ fetchData();
 
 // Initialize word cloud
 function initializeWordCloud(words) {
+    
+    if (!words) return;
 
     // Remove existing SVG if it exists
     d3.select("#word-cloud-container svg").remove();
