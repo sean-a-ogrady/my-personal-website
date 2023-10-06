@@ -10,9 +10,29 @@ let alertTimes = 0;
 
 // Fetch data from daily wordcloud (sample data for now)
 // This will eventually be automated
-fetch(url)
-    .then(response => response.json())
-    .then(words => initializeWordCloud(words.words));
+
+let retries = 3;
+
+function fetchData() {
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(words => initializeWordCloud(words.words))
+        .catch(error => {
+            if (retries > 0) {
+                retries--;
+                fetchData();
+            } else {
+                console.error('Error fetching data:', error);
+            }
+        });
+}
+
+fetchData();
 
 // Initialize word cloud
 function initializeWordCloud(words) {
@@ -185,11 +205,7 @@ pretend.addEventListener('click', () => {
 });
 
 // Redraw word cloud when window is resized
-window.addEventListener('resize', () => {
-    fetch(url)
-        .then(response => response.json())
-        .then(words => initializeWordCloud(words));
-});
+window.addEventListener('resize', () => fetchData());
 
 // This code will likely be deleted in published site
 function createForm() {
