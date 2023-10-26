@@ -13,9 +13,9 @@ Welcome to the repository for my personal website! This website serves as a port
 
 ## Future Improvements
 
-- Automate the export of the daily word JSON file from my Obsidian notes to generate daily word cloud (see https://github.com/sean-a-ogrady/obsidian-word-scraper)
-- Integrate more interactive elements
-- Add a projects section to showcase my portfolio
+- [ ] Automate the export of the daily word JSON file from my Obsidian notes to generate daily word cloud (see https://github.com/sean-a-ogrady/obsidian-word-scraper)
+- [ ] Integrate more interactive elements
+- [ ] Add a projects section to showcase my portfolio
 
 ## Contact Information
 
