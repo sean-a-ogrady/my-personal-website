@@ -11,35 +11,6 @@ Welcome to the repository for my personal website! This website serves as a port
 - **Social Media Links**: Quick links to my Instagram, LinkedIn, and GitHub profiles.
 - **Responsive Design**: The website is designed to be responsive and works well on various screen sizes.
 
-## How to Run Locally
-
-1. Clone the repository to your local machine.
-2. Run `json-server --watch db.json` (See next section on how to install `json-server`).
-3. Open the `index.html` file in your web browser.
-
-### Installing json-server
-
-1. **Open Terminal or Command Prompt**: Open your terminal on macOS/Linux or Command Prompt on Windows.
-2. **Install json-server Globally**: Run the following command to install `json-server` globally. This allows you to run it from any directory.
-
-    ```
-    npm install -g json-server
-    ```
-
-### Running json-server
-
-1. **Navigate to Your Project Directory**: Use the `cd` command to navigate to the directory where your `db.json` file is located.
-
-    ```
-    cd path/to/your/project
-    ```
-
-2. **Start json-server**: Run the following command to start `json-server`. Replace `db.json` with the name of your JSON file if it's different.
-
-    ```
-    json-server --watch db.json
-    ```
-
 ## Future Improvements
 
 - Automate the export of the daily word JSON file from my Obsidian notes to generate daily word cloud (see https://github.com/sean-a-ogrady/obsidian-word-scraper)
