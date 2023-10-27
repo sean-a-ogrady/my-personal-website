@@ -11,7 +11,7 @@ Welcome to the repository for my personal website! This website serves as a port
 - **Social Media Links**: Quick links to my Instagram, LinkedIn, and GitHub profiles.
 - **Responsive Design**: The website is designed to be responsive and works well on various screen sizes.
 
-## Future Improvements
+## Future Improvements 
 
 - [ ] Automate the export of the daily word JSON file from my Obsidian notes to generate daily word cloud (see https://github.com/sean-a-ogrady/obsidian-word-scraper)
 - [ ] Integrate more interactive elements
