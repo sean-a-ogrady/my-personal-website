@@ -1,7 +1,7 @@
 # Sean O'Grady's Personal Website
 
 ## Overview
-
+ 
 Welcome to the repository for my personal website! This website serves as a portfolio and a space to showcase my skills, projects, and interests. Built with HTML, CSS, and JavaScript, it features a word cloud generated from my Obsidian notes, a bio section, and links to my social media profiles.
 
 ## Features
