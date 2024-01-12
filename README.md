@@ -22,3 +22,4 @@ Welcome to the repository for my personal website! This website serves as a port
 - Email: [ogrady.sean.a@gmail.com](mailto:ogrady.sean.a@gmail.com)
 - LinkedIn: [Sean O'Grady](https://www.linkedin.com/in/saogrady/)
 - GitHub: [sean-a-ogrady](https://github.com/sean-a-ogrady)
+ 
